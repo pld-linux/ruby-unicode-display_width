@@ -6,7 +6,7 @@
 Summary:	Determines the monospace display width of a string in Ruby
 Name:		ruby-%{pkgname}
 Version:	1.4.0
-Release:	1
+Release:	2
 License:	MIT
 Source0:	https://rubygems.org/downloads/%{pkgname}-%{version}.gem
 # Source0-md5:	d1ac23905e70014658ea4ccefd2f16b1
@@ -99,5 +99,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files ri
 %defattr(644,root,root,755)
-%{ruby_ridir}/Unicode/DisplayWidth
+%{ruby_ridir}/Unicode
 %endif
